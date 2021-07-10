@@ -3,11 +3,12 @@
 <html>
     <head>
         <title>Anmeldeformular</title>
+        <link rel="stylesheet" href="/style.css" type ="text/css"/>
     </head>
     <body>
         <form action ="/services/handle-form" method="POST">
-            <fieldset>
-            <legend>Personal Information</legend>
+            <fieldset style="border:thin solid #990033;">
+                <legend>Personal Information</legend>
                 <label>
                     Vorname:
                     <input type="text" name = "firstname" size="20"maxlength ="50"/>
@@ -27,9 +28,11 @@
                     Password : 
                     <input type="password" name="password" size="20" maxlength="30/">
                 </label>
-            </fieldset>
+            </fieldset >
+
             <br>
-            <fieldset>
+
+            <fieldset style="border:thin solid #201dff;">
                 <legend>Questoionnaire</legend>
                 <p>
                     <label for="Browser">

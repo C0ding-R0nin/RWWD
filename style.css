@@ -1,0 +1,16 @@
+/* Stylesheets*/
+body 
+{
+    font-family: Arial;
+    background-color : black ;
+    color :rgb(255, 0, 136);
+    font-size : large;
+}
+h1 
+{
+    color : rgb(230, 173, 216);
+}
+h2 
+{
+    text-transform :uppercase;
+}
