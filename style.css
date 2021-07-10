@@ -17,3 +17,23 @@ h2
     font-size: larger;
     color :rgb(0, 0, 0);
 }
+p#green
+{
+    color:rgb(21, 255, 0);
+}
+textarea 
+{
+    background-color: rgb(75, 75, 75);
+    border: 10px double  rgb(0, 38, 255);
+    
+    color:royalblue;
+    
+}
+textarea#TxtBoxGreen
+{
+    background-color: rgb(0, 0, 0);
+    border: 5px double rgb(21, 255, 0);
+   
+    color:rgb(0, 255, 34);
+    
+}
