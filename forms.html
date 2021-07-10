@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- new comment for checking purpose-->
 
 <html>
     <head>
@@ -26,8 +25,55 @@
                         password :
                         <input type="text" name = "lastname" size="30"maxlength ="70"/>
                     </label>
+                    <label >
+                        Password : 
+                        <input type="password" name="password" size="20" maxlength="30/">
+                    </label>
             </legend>
             </fieldset>
+            <br>
+            <fieldset>
+                <legend>Questoionnaire</legend>
+                <p>
+                    <label for="Browser">
+                        Which browser do you use ?
+                    </label>
+                    <select name="browser" id="browser">  
+                        <option value="chrome  " > Google Chrome </option>                                      
+                        <option value="edge    " > Microsoft Edge </option>                                      
+                        <option value="firefox " > Mozi//a FireFox </option>                                      
+                        <option value="opera"    > Opera </option>                                      
+                        <option value="safari"   > Safari </option>                                      
+                    </select>
+                </p>
+                <p>
+                    Do you like our Website ?
+                    <br>
+                    <label >
+                        <input type="radio" name = "Feedback" value = "Yes"/>
+                        Yes
+                    </label>
+                    <label >
+                        <input type="radio" name = "Feedback " vale = "No"/>
+                        No
+                    </label>
+                </p>
+                <p>
+                    <br>
+                    <label for="improvements ">
+                        Do you have any sugestions for improvement ?
+                    </label>
+                    <br>
+                    <textarea id="improvements" cols="30" rows="5">
+                        text here
+                    </textarea>
+                </p>
+                <label >
+                    <input type="checkbox" name="Newsletter"/>
+                    Do you like to subscribe ?
+                </label>
+            </fieldset>
+            <input type="submit" value = " Submmit Form " />
         </from>
     </body>
 </html>
