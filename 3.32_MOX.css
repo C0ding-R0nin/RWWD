@@ -1,0 +1,58 @@
+*
+{
+    box-sizing: border-box;
+}
+html
+{
+    background-color: rgb(20, 15, 20);
+    margin: 0%;
+    padding: 0%;
+
+}
+h1
+{
+    color: rgb(120, 15, 120);
+    text-shadow: rgb(60, 7, 60) 0px 10px;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}    
+
+form
+{
+    color: rgb(120, 15, 120);
+    border: solid 1px rgb(120, 15, 120);
+}
+label
+{
+    color: rgb(120, 15, 120);
+    display:block;
+
+    text-align: right;
+}
+input
+{
+    color: rgb(120, 15, 120);
+    border: solid 1px rgb(120, 15, 120); 
+}
+form
+{
+    overflow: hidden;
+    max-width: 600px;
+    margin: auto;
+}
+label
+{
+    width: 200px;
+    float: left;
+}
+input
+{
+    width: calc(100% - 200px);
+    float: left;
+
+}
+button
+{
+    float: right;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cREATE fORMS WITH fLOAT</title>
+
+    <style type="text/css">
+        html
+        {
+            background-color: rgb(0, 20, 25);
+        }
+        body
+        {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 0.9em;
+        }
+        *
+        {
+            box-sizing: border-box;
+        }
+        form
+        {
+            padding: 1em;
+            background: rgb(100, 100, 100);
+            color: rgb(0, 200, 255);
+            border: 1px solid rgb(0, 200, 255);
+            margin: 2rem auto auto auto;
+            max-width: 600px;
+            padding: 1em;
+            border-radius: 10px;
+            overflow :hidden;
+        }
+        form input
+        {
+            margin-bottom: 1rem;
+            background : rgb(100, 100, 100);
+            color: whitesmoke;
+            border : solid 1px rgb(0, 200, 255);
+            border-radius: 10px;
+        }
+        form button
+        {
+            background-color: rgb(100, 100, 100);
+            padding: 0.8em;
+            border: solid 1px rgb(0, 200, 255);
+            border-radius: 10px;
+        }
+        form button:hover
+        {
+            background-color: deepskyblue;
+        }
+        label
+        {
+            text-align: right;
+            display: block;
+            padding: 0.5em 1.5em 0.5em 0 ;
+        }
+        input
+        {
+            width: 100%;
+            padding: 0.7em;
+            margin-bottom: 0.5rem;
+        }            
+        input:focus
+        {
+            outline: 3px solid deepskyblue;
+        }
+        label
+        {
+            float: left;
+            width: 200px;
+        }
+        input
+        {
+            float: left;
+            width: calc(100% - 200px);
+        }
+        button
+        {
+            float: right;
+            width: calc(100% - 200px);
+            
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="firstName">Vorname</label>
+        <input id="firstName" type="text">
+
+        <label for="lastName">Nachname</label>
+        <input id="lastName" type="text">
+
+        <label for="birthday">Geburtstag</label>
+        <input id="birthday" type="date">
+
+        <label for="email">Email</label>
+        <input id="email" type="email">
+
+        <BUtton>Abschicken</BUtton>
+    </form>
+</body>
+</html>
