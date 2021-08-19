@@ -1,58 +1,103 @@
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 *
 {
     box-sizing: border-box;
-}
-html
-{
-    background-color: rgb(20, 15, 20);
-    margin: 0%;
     padding: 0%;
-
+    margin: 0%;
+    background-color: rgb(10, 10,10);
+  
 }
 h1
 {
-    color: rgb(120, 15, 120);
-    text-shadow: rgb(60, 7, 60) 0px 10px;
     text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
-}    
+    margin-top: 5%;
+    margin-bottom:5%;
 
-form
-{
-    color: rgb(120, 15, 120);
-    border: solid 1px rgb(120, 15, 120);
-}
-label
-{
-    color: rgb(120, 15, 120);
-    display:block;
+    color: rgb(150, 50,150);
 
-    text-align: right;
 }
-input
+h2
 {
-    color: rgb(120, 15, 120);
-    border: solid 1px rgb(120, 15, 120); 
+    text-align: center;
+
+    margin-top: 5%;
+    margin-bottom:5%;    
+    color: rgb(150, 50,150);
+
 }
 form
 {
-    overflow: hidden;
-    max-width: 600px;
     margin: auto;
-}
-label
-{
-    width: 200px;
-    float: left;
+    overflow: hidden;
+    max-width: 400px;
+    padding: 20px;
+
+    border : solid 10px rgb(60, 10,60);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px  rgb(30, 150,255);
 }
 input
 {
-    width: calc(100% - 200px);
-    float: left;
+    width: calc(70% - 10px);
+    height: 2em;
+    margin-left: 10px;
+    margin-bottom: 1em;
+
+    border: rgb(150, 50,150) solid 1px;
+    border-radius: 20px;
+
+    color: rgb(255, 150,255);
+    background-color: rgb(60, 10,60);
+     border: rgb(250, 50,250) solid 1px;
+    box-shadow: 2px 2px 7px  rgb(30, 150,255);
 
 }
+input:hover
+{
+     outline: none;
+    box-shadow: 2px 2px 17px  rgb(30, 150,255);
+}
+input:focus
+{
+     outline: none;
+    box-shadow: 2px 2px 17px  rgb(30, 150,255);
+    background-color: rgb(10, 10,10);
+    color: rgb(60, 180,255);
+}
+
+label
+{
+    float: left;
+    width: 30%;
+    text-align: right;
+    margin-top: 0.2em ;
+
+    color: rgb(150, 50,150);
+}
+
 button
 {
     float: right;
+    width: calc(70% - 10px);
+    height: 2em;
+    margin-left: 10px;
+    margin-bottom: 1em;
+
+    border: rgb(150, 50,150) solid 1px;
+    border-radius: 20px;
+
+    color: rgb(150, 50,150);
+    box-shadow: 2px 2px 7px  rgb(30, 150,255);
+
+}
+button:hover
+{
+    background-color: rgb(60, 10,60);
+    color: rgb(250, 50,250);
+    box-shadow: 2px 2px 17px  rgb(30, 150,255);
+
 }

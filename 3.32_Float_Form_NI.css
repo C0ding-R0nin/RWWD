@@ -1,0 +1,38 @@
+
+        body
+        {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        *
+        {
+            box-sizing: border-box;
+        }
+        form
+        {
+            overflow :hidden;
+
+            border: 1px solid rgb(0, 200, 255);
+        }
+        input
+        {
+            width: 70%;
+            border : solid 1px rgb(0, 200, 255);
+
+        }
+        label
+        {  
+            float: left;
+            width: 30%;
+            text-align: right;
+  
+            border : solid 1px rgb(0, 200, 255);
+        }
+        button
+        {
+            float: right;
+            width: 70%;
+
+            border: solid 1px rgb(0, 200, 255);
+            
+        }
+  
