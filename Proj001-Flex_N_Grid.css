@@ -1,0 +1,52 @@
+ *
+{
+    max-width: 400px;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h1{
+    background-color: dimgrey;
+    color: white;
+    border: violet 1px solid;
+}
+.wrapper
+{
+    border: 1px solid deepskyblue;
+    background-color: dimgray;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.BOX
+{
+    height: 5em;
+    width: 20%;
+    border: 1px solid deepskyblue;
+    display: flex;
+    align-items: center;
+    margin: 0.3em;
+}
+.BOX p
+{
+    color: white;  
+    text-align: center;
+    padding: 1em;
+}
+#BOX_1
+{
+   background-color: blueviolet; 
+}
+#BOX_2
+{
+    background-color: coral;
+}
+#BOX_3
+{
+   background-color: rgb(226, 43, 165); 
+}
+#BOX_4
+{
+    background-color: rgb(255, 80, 80);
+}

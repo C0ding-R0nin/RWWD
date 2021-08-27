@@ -1,0 +1,58 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+}
+
+form
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 16px;
+
+    margin: 2rem auto 0 auto;
+    padding:  1em;
+    max-width: 600px;
+
+    background : #f9f9f9;
+    
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+form input
+{
+    background-color: white;
+    border: 1px solid darkgray;
+    padding: 0.7em;
+}
+form input:focus
+{
+    outline: 3px solid deepskyblue;
+}
+form button
+{
+    background-color: lightgray;
+    padding: 0.8em;
+    width: 100%;
+    border: 0;
+}
+form button:hover
+{
+    background-color: deepskyblue;
+}
+label
+{
+    padding: 0.5em 0.5em 0.5 0;
+    text-align: right;
+    grid-column: 1/2;
+}
+input , button
+{
+    grid-column: 2/3;
+}
+
